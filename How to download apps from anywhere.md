@@ -6,7 +6,7 @@ Before macOS Sierra, it was much easier to download apps from anywhere. You’d 
 However, since new updates to macOS, you’ll need to change a few more settings on your Mac. Here’s what you should do:
 
 1. Launch Terminal by going to Finder > Applications > Utilities. You can also locate it with Spotlight search by pressing Command-Space.
-1. In Terminal, type the command ```spctl --global-enable``` and hit Return. Enter your Mac’s password.
+1. In Terminal, type the command ```spctl --global-disable``` and hit Return. Enter your Mac’s password.
 1. Go to System Preferences > Security & Privacy > General. At the bottom of the window, you’ll see Allow apps to be downloaded from with automatically selected Anywhere.
 
 
